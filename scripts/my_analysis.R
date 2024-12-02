@@ -19,7 +19,8 @@ diamonds_sample_df <- diamonds_df %>%
 
 # Make a plot.
 ggplot(data = diamonds_sample_df) +
-  geom_point(mapping = aes(x = x, y = carat, colour = clarity))
+  geom_point(mapping = aes(x = x, y = carat, colour = clarity)) +
+  scale_colour_viridis_d()
 
 # Save the plot.
 ggsave(filename = "results/my_plot.png", height = 8, width = 10, unit = "cm")
