@@ -23,4 +23,4 @@ ggplot(data = diamonds_sample_df) +
   scale_colour_viridis_d()
 
 # Save the plot.
-ggsave(filename = "results/my_plot.png", height = 8, width = 10, unit = "cm")
+ggsave(filename = "results/my_plot.png", height = 12, width = 10, unit = "cm")
