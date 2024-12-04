@@ -1,5 +1,6 @@
 # Add example
 data/diamonds_data.csv
+scripts/not_wanted_on_github.txt
 
 # History files
 .Rhistory
