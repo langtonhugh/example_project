@@ -10,3 +10,5 @@ def factorial(n):
 # Input from user
 number = int(input("Enter a number: "))
 print("The factorial of", number, "is", factorial(number))
+
+# Manual addition
